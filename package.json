@@ -1,0 +1,29 @@
+{
+  "name": "taketalk",
+  "version": "0.0.0",
+  "description": "Take talk.",
+  "main": "index.js",
+  "repository": "stephenplusplus/taketalk",
+  "keywords": [
+    "cli",
+    "bin",
+    "node",
+    "npm"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Stephen Sawchuk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stephenplusplus/taketalk/issues"
+  },
+  "homepage": "https://github.com/stephenplusplus/taketalk",
+  "dependencies": {
+    "get-stdin": "^0.1.0",
+    "minimist": "^0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
