@@ -30,15 +30,10 @@ module.exports = function (obj) {
   if (argv.version || argv.v) return taketalk.printVersion();
 
   if (process.stdin.isTTY) {
-    if (!input) {
-      taketalk.printHelp();
-      return;
-    }
-
-    taketalk.init(input, argv);
+    taketalk.init.call(taketalk, input, argv);
   } else {
     stdin(function (data) {
-      taketalk.init(data, argv);
+      taketalk.init.call(taketalk, data, argv);
     });
   }
 
