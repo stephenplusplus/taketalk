@@ -1,8 +1,7 @@
 {
   "name": "taketalk",
   "version": "0.1.1",
-  "description": "Take talk.",
-  "main": "index.js",
+  "description": "Ever wanted a bin for your node module?",
   "repository": "stephenplusplus/taketalk",
   "keywords": [
     "cli",
@@ -15,13 +14,12 @@
   },
   "author": "Stephen Sawchuk",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/stephenplusplus/taketalk/issues"
-  },
-  "homepage": "https://github.com/stephenplusplus/taketalk",
+  "files": [
+    "index.js"
+  ],
   "dependencies": {
-    "get-stdin": "^0.1.0",
-    "minimist": "^0.1.0"
+    "get-stdin": "^4.0.1",
+    "minimist": "^1.1.0"
   },
   "devDependencies": {
     "mocha": "*"

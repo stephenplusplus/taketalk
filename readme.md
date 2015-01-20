@@ -1,10 +1,16 @@
 # taketalk
-> ever wanted a bin for your node module?
 
-## Installation & Usage
-```sh
+> Ever wanted a bin for your node module?
+
+
+## Install
+
+```
 $ npm install --save taketalk
 ```
+
+
+## Usage
 
 ```js
 #!/usr/bin/env node
@@ -25,5 +31,7 @@ require('taketalk')({
 });
 ```
 
+
 ## License
-[MIT](http://opensource.org/licenses/MIT) © Stephen Sawchuk
+
+MIT © Stephen Sawchuk

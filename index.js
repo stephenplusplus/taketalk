@@ -1,5 +1,4 @@
 'use strict';
-
 var argv = require('minimist')(process.argv.slice(2));
 var stdin = require('get-stdin');
 var input = argv._[0];
